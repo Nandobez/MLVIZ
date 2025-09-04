@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "numSamples": 10000,
+  "imageShape": [
+    28,
+    28
+  ],
+  "image": {
+    "file": "mnist-test-images-uint8.bin",
+    "dtype": "uint8"
+  },
+  "labels": {
+    "file": "mnist-test-labels-uint8.bin",
+    "dtype": "uint8"
+  }
+}
