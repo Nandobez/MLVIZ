@@ -1,0 +1,20 @@
+.root {
+  display: block;
+  background: var(--theme-border-subdued);
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: bottom;
+  overflow: hidden;
+  position: relative;
+  color: var(--theme-focused-foreground);
+  font-family: var(--font-family-mono);
+  padding: 0 0.5ch;
+  height: calc(var(--theme-line-height-base) * 1rem);
+  line-height: calc(var(--theme-line-height-base) * 1rem);
+}
+
+.measure {
+  visibility: hidden;
+  position: absolute;
+  pointer-events: none;
+}
