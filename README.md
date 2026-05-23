@@ -1,12 +1,12 @@
 <div align="center">
 
 <pre>
-███╗   ███╗██╗    ██╗   ██╗██╗███████╗
-████╗ ████║██║    ██║   ██║██║╚══███╔╝
-██╔████╔██║██║    ██║   ██║██║  ███╔╝
+  ███╗   ███╗██╗    ██╗   ██╗██╗███████╗
+  ████╗ ████║██║    ██║   ██║██║╚══███╔╝
+ ██╔████╔██║██║    ██║   ██║██║  ███╔╝
 ██║╚██╔╝██║██║    ╚██╗ ██╔╝██║ ███╔╝
-██║ ╚═╝ ██║███████╗╚████╔╝ ██║███████╗
-╚═╝     ╚═╝╚══════╝ ╚═══╝  ╚═╝╚══════╝
+  ██║ ╚═╝ ██║███████╗╚████╔╝ ██║███████╗
+  ╚═╝     ╚═╝╚══════╝ ╚═══╝  ╚═╝╚══════╝
 </pre>
 
 ### Interactive 3D Neural Network Visualiser — MNIST MLP
@@ -33,7 +33,7 @@ Draw a digit on the canvas and watch a small MLP think out loud in 3D: every neu
 
 ```
 ┌────────────────────────────┐        ┌────────────────────────────┐
-│   Python (offline)         │        │   React + Three.js (browser)│
+│   Python (offline)         │        │ React + Three.js (browser) │
 │                            │        │                            │
 │   training/mlp_train.py    │        │   App.jsx                  │
 │   tools/.../mnist_assets   │        │   ├─ DigitCanvas           │
